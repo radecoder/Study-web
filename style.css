@@ -1,0 +1,60 @@
+h2 {
+  text-align: center;
+  color: rgb(245, 243, 245);
+  height: 70px;
+  line-height: 200px;
+  font-size: 30px;
+  /* border: 2px solid blueviolet; */
+}
+
+h3 {
+  text-align: center;
+  color: rgb(247, 239, 239);
+  height: 120px;
+  line-height: 150px;
+  font-size: 23px;
+}
+
+h4 {
+  text-align: center;
+}
+
+form {
+  margin: 0 auto;
+  width: 250px;
+  padding: 1px;
+  color: blanchedalmond;
+  font-size: 20px;
+
+}
+
+body {
+  background-image: url('homenew.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+a:link {
+  color: rgb(208, 226, 141);
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: rgb(159, 159, 231);
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
