@@ -1,19 +1,90 @@
-h2 {
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: url(homenewl.jpg) no-repeat center center fixed;
+  background-size: cover;
+}
+
+.container {
+  color: white;
+  position: absolute;
+  top: 25%;
+  left: 37%;
+}
+
+.container h2 {
+  font-family: 'Heebo', sans-serif;
+  width: 50%;
+  display: inline-block;
+  font-size: 25px;
+  border-bottom: 5px solid rgb(139, 120, 25);
+  margin-bottom: 15px;
+  padding: 13px 0;
+}
+
+.box {
+  width: 100%;
+  margin: 22px 0px;
+  border-bottom: 2px solid  rgb(139, 120, 25);
+}
+
+.box input {
+  background: none;
+  width: 72%;
+  padding: 5px 10px;
+  font-size: 28px;
+  border: none;
+  outline: none;
+  color: white;
+}
+
+.btn {
+  color: white;
+  cursor: pointer;
+  outline: none;
+  margin: 12px 0;
+  padding: 10px 21px;
+  border: 2px solid  rgb(139, 120, 25);
+  border-radius: 10px;
+  font-size: 18px;
+  background: none;
+  font-weight: bold;
+
+}
+
+.box i {
+  width: 25px;
+  text-align: center;
+}
+
+.btn:hover {
+  opacity: 0.5;
+  color: purple;
+  background: white;
+
+}
+
+
+/* scascascasc */
+/* h2 {
   text-align: center;
   color: rgb(245, 243, 245);
   height: 70px;
   line-height: 200px;
-  font-size: 30px;
+  font-size: 30px; */
   /* border: 2px solid blueviolet; */
 }
 
-h3 {
+/* h3 {
   text-align: center;
   color: rgb(247, 239, 239);
   height: 120px;
   line-height: 150px;
   font-size: 23px;
-}
+} */
 
 h4 {
   text-align: center;
@@ -29,7 +100,7 @@ form {
 }
 
 body {
-  background-image: url('homenew.jpg');
+  background-image: url('homenewl.jpg');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -42,7 +113,7 @@ a:link {
 }
 
 a:visited {
-  color: rgb(159, 159, 231);
+  color: rgb(230, 221, 94);
   background-color: transparent;
   text-decoration: none;
 }
